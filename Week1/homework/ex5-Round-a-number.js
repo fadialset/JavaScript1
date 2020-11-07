@@ -4,6 +4,15 @@ console.log(z);
 let a = Math.round(z);
 console.log(a);
 
-let highestValue;
-(a > z) ? highestValue = a : highestValue = z;
-console.log(highestValue);
+if (a > z) {
+    console.log(a)
+}
+else {
+    console.log(z)
+}
+
+// or we can do this to creat a new variable
+
+let highValue;
+(a > z) ? highValue = a : highValue = z;
+console.log(highValue);
