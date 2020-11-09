@@ -1,28 +1,36 @@
-'use strict';
-function typeChecker (x , y){
-    if (typeof x === typeof y){
-        console.log('same type');
-    }else{
-        console.log('not the same type');
+'use strict'
+let string1 = "coding is cool";
+let string2 = "coding is fun";
+
+let myInfo ={
+    firstName : "fadi",
+    lastName : "alset",
+    age : 26
+};
+
+
+let myHobbis = {
+    firstHobby : "Football",
+    secoundHobby : "riding a bick",
+};
+
+function typeChecker (var1 , var2){
+    if (typeof var1 === typeof var2){
+        console.log("SAME TYPE")
+    }else {
+        console.log("NOT THE SAME")
     }
 }
-typeChecker();
 
-// declare 4 variables 2 must be strings and 2 must be objects
+typeChecker(string1 , string2);
+typeChecker(string1 , myInfo);
+typeChecker(string1 , myHobbis);
 
-let string1 = "Real Madrid";
-let string2 = "is the best team";
+typeChecker(string2 , string1);
+typeChecker(string2 , myInfo);
+typeChecker(string2 , myHobbis);
 
-let object1 = {
-    firstName = 'fadi',
-    lastName = 'alset',
-    age = 26
-}
 
-let object2{
-    firstName = 'Sergio',
-    lasName = 'Ramos',
-    age = 34
-}
 
-typeof string1 = 
+console.log(typeof string1);
+console.log(typeof myInfo);
