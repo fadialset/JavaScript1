@@ -32,3 +32,8 @@ let myBooks = [
                 }
                 i++;
             }
+
+/* here i used 2 loops for tow reasons the first one is to improve my skills useing more than one type
+of loops and the secound reason is to make the console print this (For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".)
+and the secound loop to print this (log a string like You already read "The Hobbit" right after the log of the book details)
+*/
