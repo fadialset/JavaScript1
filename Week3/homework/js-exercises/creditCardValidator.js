@@ -29,7 +29,7 @@ if (number.length !== 16){
 // The sum of all the numbers must be greater than 16
     console.log(`Invalid! The input ${number} charecters sum must be greater than 16`);
 }else{
-   console.log("goood")
+   console.log(`Success! The input ${number}  is a valid credit card number!`);
 }
 };
 
